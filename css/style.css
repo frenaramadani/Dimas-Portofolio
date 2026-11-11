@@ -1,9 +1,13 @@
-/* Gaya portofolio Andi Pratama
-   Palet: #1D3557 (utama), #E63946 (aksen), #F1FAEE (latar)
-   Huruf: Poppins (judul), Inter (isi)
-   Tata letak: mobile first, titik ubah 768px (tablet) dan 1024px (laptop) */
-
-/* 1. Reset */
+:root {
+ --warna-utama: #1D3557;
+ --warna-judul: #1D3557;
+ --warna-aksen: #E63946;
+ --warna-tautan: #E63946;
+ --warna-latar: #F1FAEE;
+ --warna-teks: #333333;
+ --warna-kartu: #FFFFFF;
+ --warna-garis: #DDDDDD;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -197,6 +201,9 @@ input, select, textarea {
   border-radius: 6px;
   font-family: inherit;
   font-size: 1rem;
+  background-color: var(--warna-kartu)
+  color: var(--warna-teks)
+
 }
 
 button {
@@ -262,3 +269,15 @@ footer a {
     font-size: 2.75rem;
   }
 }
+.tomboltema {
+ padding: 0.5rem 0.9rem;
+ border: 5px solid #FFFFFF;
+ background-color: transparent;
+ font-size: 0.9rem;
+}
+body.gelap {
+ background-color: #121A24;
+ color: #E3E8EE;
+}
+
+

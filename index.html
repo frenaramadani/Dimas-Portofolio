@@ -11,11 +11,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="img/foto-profil.png">
-  <script src="js/javascript.js" defer></script>
-  <script src="js/logika.js" defer></script>
+  <script src="js/javascript.jsh" defer></script>
+  <script src="js/logika.jsh" defer></script>
   <script src="js/main.js" defer></script>
 </head>
-<body>
+<body class="">
   <header>
     <div class="container navbar">
       <h1>Dimas Ramadhani</h1>
@@ -26,7 +26,8 @@
           <li><a href="kontak.html">Kontak</a></li>
         </ul>
       </nav>
-      <!-- Tantangan: menu ponsel yang bisa dibuka-tutup -->
+      <button type="button" id="tombol-tema" class="tomboltema">Mode Gelap</button>
+      
       <details class="menu-ponsel">
         <summary>Menu</summary>
         <nav>
@@ -78,11 +79,10 @@
 
         <section class="kartu">
           <h2>Keahlian</h2>
-          <ul>
-            <li>HTML dasar (sedang dipelajari)</li>
-            <li>Mengetik cepat</li>
-            <li>Membuat Web (sedang dipelajari)</li>
+          <ul id="daftar-skill">
+            <li></li>
           </ul>
+          <p id="jumlah-skill"></p>
         </section>
       </div>
 
