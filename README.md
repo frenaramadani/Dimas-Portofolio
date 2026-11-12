@@ -1,20 +1,31 @@
-# Portofolio Dimas Ramadhani
+# Portofolio Ferdinand Christopher Andryanta
 Website portofolio pribadi yang saya buat di Kelas Industri UBIG
 (Paket 1, Minggu 01 sampai 05).
 Website ini tampil rapi di ponsel, tablet, dan laptop.
+
+---
+
 ## Tampilan
-![Tampilan beranda portofolio](img-portofolio.png)
+![Tampilan beranda portofolio](img/Mainprof.png)
+
+---
+
 ## Fitur
-- Halaman Beranda berisi profil, hobi, cita-cita, keahlian, dan
+- Halaman **Beranda** berisi profil, hobi, cita-cita, keahlian, dan
 jadwal belajar
-- Halaman Proyek berisi daftar proyek dalam bentuk kartu
-- Halaman Kontak berisi form untuk menghubungi saya
+- Halaman **Proyek** berisi daftar proyek dalam bentuk kartu
+- Halaman **Kontak** berisi form untuk menghubungi saya
 - Tampilan responsif dengan Flexbox dan *media query*
+
+---
+
 ## Teknologi
 - HTML5
 - CSS3 (Flexbox dan media query)
 - Git dan GitHub
-- VS Code dan Live Server
+
+---
+
 ## Tautan
-- Website: menyusul setelah *deploy* ke Vercel
-- - Dibuat oleh: Dimas Ramadhani, SMKN 1 Pasuruan
+- Website: https://portofolio-ferdinand-liard.vercel.app/
+- Dibuat oleh: Ferdinand Christopher Andryanta, SMKN 1 Pasuruan
