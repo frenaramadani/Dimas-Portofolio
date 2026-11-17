@@ -44,7 +44,7 @@ a {
 }
 
 header {
-  background-color: #1D3557;
+  background-color: var(--warna-utama);
   color: #FFFFFF;
   padding: 1rem 0;
 }
@@ -295,7 +295,7 @@ body.gelap {
 }
 
 :root {
-    --warna-utama: #1d3557;
+    --warna-utama: indigo;
     --warna-judul: #1d3557;
     --warna-aksen: #e63946;
     --warna-tautan: #e63946;
@@ -306,7 +306,7 @@ body.gelap {
 }
 /* Tema gelap: isi variabel diganti saat body memiliki class gelap */
 body.gelap {
-    --warna-utama: #0b1526;
+    --warna-utama: indigo;
     --warna-judul: #a8d8dc;
     --warna-tautan: #ff8a8a;
     --warna-latar: #121a24;

@@ -1,4 +1,4 @@
-# Portofolio Ferdinand Christopher Andryanta
+# Portofolio Dimas ramadhani
 Website portofolio pribadi yang saya buat di Kelas Industri UBIG
 (Paket 1, Minggu 01 sampai 05).
 Website ini tampil rapi di ponsel, tablet, dan laptop.
@@ -27,5 +27,5 @@ jadwal belajar
 ---
 
 ## Tautan
-- Website: https://portofolio-ferdinand-liard.vercel.app/
-- Dibuat oleh: Ferdinand Christopher Andryanta, SMKN 1 Pasuruan
+- Website: https://indexhtml-beta-vert.vercel.app/
+- Dibuat oleh: Dimas ramadhani, SMKN 1 Pasuruan

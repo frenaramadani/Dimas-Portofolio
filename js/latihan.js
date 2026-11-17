@@ -2,11 +2,11 @@
 // Kalkulator nilai rapor di console
 
 // 1. Pesan pertama ke console
-console.log("Halo, saya Ferdinand Christopher Andryanta");
+console.log("Halo, saya Dimas ramadhani");
 console.log("Ini latihan Javascript pertamaku.");
 
 // 2. Data Siswa
-const nama = "Ferdinand Christopher Andryanta";
+const nama = "Dimas ramadhai";
 const kelas = "X RPL 1";
 const kkm = 75;
 let nilaiTugas = 85;
