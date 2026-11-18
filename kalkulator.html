@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dimas ramadhani | kalkulator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="Js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <h1>Dimas ramadhani</h1>
+      <nav class="menu-laptop">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="proyek.html">Proyek</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+          <li><a href="Kantin/kantin.html">Kasir Kantin</a></li>
+          <li><a href="kalkulator.html">kalkulator nilai</a></li>
+        </ul>
+      </nav>
+      <!-- Tantangan: menu ponsel yang bisa dibuka-tutup -->
+      <details class="menu-ponsel">
+        <summary>Menu</summary>
+        <nav>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="proyek.html">Proyek</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="kalkulator.html">kalkulator nilai</a></li>
+          </ul>
+        </nav>
+      </details>
+      <button type="button" id="tombol-tema" class="tombol-tema">
+          Mode gelap
+        </button>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="kartu">
+        <h2>KALKULATOR NILAI</h2>
+        <p>Masukkan nilai tugas, UTS, dan UAS lalu tekan tombol hitung</p>
+        <form>
+          <p>
+            <label for="nama">nilai tugas</label><br>
+            <input type="text" id="tugas" name="tugas" placeholder="Contoh: 85" required>
+          </p>
+          <p>
+            <label for="email">nilai UTS</label><br>
+            <input type="email" id="uts" name="uts" placeholder="contoh: 80" required>
+          </p>
+          <p>
+            <label for="hp">nilai UAS</label><br>
+            <input type="tel" id="uas" name="uas" placeholder="contoh: 75" required>
+          </p>
+          
+          <button type="button" id="hitung">Hitung nilai</button>
+
+            <p class="hasil" id="hasil">HASIL</p>
+
+        </form>
+      </section>
+
+  <footer>
+    <p>Kontak: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=frenaramadani@gmail.com">frenaramadani@gmail.com</a> |
+      <a href="https://github.com/frenaramadani" target="_blank">GitHub</a> |
+      <a href="https://www.youtube.com/@RAVENAREMIHC" target="_blank">YouTube</a></p>
+    <p>&copy; 2026 Dimas ramadhani. Dibuat di Kelas Industri UBIG.</p>
+  </footer>
+
+  <script src="Js/kalkulator.js"></script>
+</body>
+</html>

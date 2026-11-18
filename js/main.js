@@ -2,7 +2,7 @@
 // Dipasang di ketiga halaman dengan defer
 
 // 1. Daftar keahlian (halaman Beranda)
-const skills = [
+let skills = [
  { nama: "HTML", level: "Menengah" },
  { nama: "CSS", level: "Menengah" },
  { nama: "Git dan GitHub", level: "Dasar" },
@@ -13,6 +13,7 @@ skills.push({ nama: "Mengetik cepat tanpa melihat ", level: "Dasar" });
 
 const daftarSkill = document.querySelector("#daftar-skill");
 const jumlahSkill = document.querySelector("#jumlah-skill");
+
 if (daftarSkill) {
  skills.forEach((skill) => {
  const item = document.createElement("li");
