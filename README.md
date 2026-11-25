@@ -6,9 +6,12 @@ Website ini tampil rapi di ponsel, tablet, dan laptop.
 ---
 
 ## Tampilan
-![Tampilan beranda portofolio](img/Mainprof.png)
+![Tampilan beranda portofolio V2](img/Mainprof.png)
 
 ---
+
+## Lighthouse Beranda
+![Nilai Lighthouse terbaru beranda portofolio V2](img/Lighthouse-Beranda.png)
 
 ## Fitur
 - Halaman **Beranda** berisi profil, hobi, cita-cita, keahlian, dan
@@ -23,6 +26,16 @@ jadwal belajar
 - HTML5
 - CSS3 (Flexbox dan media query)
 - Git dan GitHub
+- JavaScript
+- JSON
+- GitHub API
+
+---
+
+## Skore lighthouse (mobile)
+- Beranda : Performance 99, Accessibility 100, Best Practices 100, SEO 100
+- Proyek : Performance 87, Accessibility 100, Best Practices 100, SEO 100
+- Kontak : Performance 99, Accessibility 100, Best Practices 100, SEO 100
 
 ---
 

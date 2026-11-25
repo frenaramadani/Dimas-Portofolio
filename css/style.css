@@ -156,6 +156,9 @@ main {
   flex: 1 1 280px;
   margin-bottom: 0;
 }
+#daftar-proyek {
+  min-height: 30rem;
+}
 
 article img {
   border-radius: 8px;
@@ -329,4 +332,10 @@ body.gelap {
   border: 5px solid var(--warna-garis);
   border-radius: 12px;
   box-shadow: 4px 4px 4px indigo;
+}
+/* 12. Tombol kembali ke atas halaman */
+.tombol-atas {
+  background-color: (transparent);
+  border: 2px solid white;
+  padding: 0.5rem;
 }

@@ -324,3 +324,9 @@ body.gelap {
   color-scheme: dark;
   transition: 1s;
 }
+
+.tombol-atas {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 0.5rem;
+}

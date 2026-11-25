@@ -104,7 +104,7 @@ function buatKartu(item) {
 <article class="kartu">
 <span class="label">${item.kategori}</span>
 <h3>${item.judul}</h3>
-<img src="${item.gambar}" alt="${item.alt}" width="280">
+<img src="${item.gambar}" alt="${item.alt}" width="280" height="180">
 <p>${item.deskripsi}</p>
 </article>`;
 }
@@ -205,3 +205,10 @@ console.error(error);
 if (daftarRepo) {
 ambilRepo();
 }
+
+// 6. Tombol untuk kembali ke atas halaman
+const TombolAtas = document.querySelector("#tombol-atas")
+
+TombolAtas.addEventListener ("click", () => {
+  window.scrollTo ({ top: 0, behavior: "smooth"})
+})

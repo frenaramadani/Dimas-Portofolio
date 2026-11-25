@@ -112,4 +112,9 @@ tombolTema.addEventListener("click", () => {
   } else {
     tombolTema.textContent = "Mode Gelap";
   }
-});
+
+const TombolAtas = document.querySelector("#tombol-atas")
+
+ TombolAtas.addEventListener ("click", () => {
+ window.scrollTo ({ top: 0, behavior: "smooth"})
+})});
