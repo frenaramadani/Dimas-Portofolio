@@ -33,9 +33,9 @@ jadwal belajar
 ---
 
 ## Skore lighthouse (mobile)
-- Beranda : Performance 99, Accessibility 100, Best Practices 100, SEO 100
-- Proyek : Performance 87, Accessibility 100, Best Practices 100, SEO 100
-- Kontak : Performance 99, Accessibility 100, Best Practices 100, SEO 100
+- Beranda : Performance 97, Accessibility 100, Best Practices 100, SEO 100
+- Proyek : Performance 100, Accessibility 100, Best Practices 100, SEO 100
+- Kontak : Performance 100, Accessibility 100, Best Practices 100, SEO 100
 
 ---
 

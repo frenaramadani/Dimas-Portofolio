@@ -338,4 +338,15 @@ body.gelap {
   background-color: (transparent);
   border: 2px solid white;
   padding: 0.5rem;
+  transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+
+}
+.tombol-atas:hover{
+  background-color: blue;
+  transform: scale(1.1);
+  transform: translate(11);
+  box-shadow: 4px 4px 4px 4px blue;
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.8),
+              0 0 35px rgba(12, 12, 12, 0.5);
 }
